@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言反馈</title>
+<style>
+	*{
+		padding:0;
+		margin:0 auto;
+		font-style: normal;
+	}
+	a{
+		text-decoration:none;
+		
+	}
+	li{
+		list-style:none;		
+	}
+	body{
+		width:867px;
+		background:#2c383e url(images/bgindex.jpg) repeat-x;
+	}
+	#header{
+		width:100%;
+		height:323px;
+	}
+	#header embed{
+		width:100%;
+		height:323px;
+	}
+	/*导航栏部分*/
+	#nav{
+		width:100%;
+		height:51px;
+		background:url(images/linkbg.jpg) repeat-x;
+	}
+
+	#nav ul a li{
+		float:left;
+		width:124px;
+		height:51px;
+		color:#fff;
+		text-align:center;
+		line-height:51px;
+		background:url(images/linkr.gif) no-repeat right center;
+	}
+	/*注意优先级*/
+	#nav a .endli{
+		width:123px;
+		background:none;
+	}
+	
+	#nav ul a li:hover{
+		color:#FF0;
+		font-size:18px;
+		text-decoration:underline;
+	}	
+	#content{
+		width:100%;
+		height:840px;
+		background-color:#fff;
+	}
+	#content .c_left{
+		width:268px;
+		height:100%;
+		float:left;
+		background:#fff url(images/weline.gif) repeat-y right top;
+	}
+	#content .c_left ul{
+		margin:20px 0px 0px 20px;
+	}
+	#content .c_left ul li{
+		color:#A8B1B4;
+		margin-left:10px;
+		padding-top:3px;	
+
+	}	
+	#content .c_left .line{
+		border-bottom:1px solid #F0F0F0;
+		margin:0px 30px 0px 10px;
+		height:3px;
+	}		
+	#content .c_left ul li a{
+		font-size:14px;
+		color:#80898E;
+
+	}	
+
+	#content .c_left img{
+		margin:8px 0px 0px 15px;
+		float:left;
+	}
+	#content .c_left .img2{
+		width:1px;
+		height:20px;
+		margin:3px 18px 0px 13px;
+		float:left;
+	}
+	#content .c_right{
+		width:599px;
+		height:100%;
+		float:left;
+	}
+	#content .c_right img{
+		margin:20px 0px 0px 20px;
+	}
+	#content .c_right form{
+		margin:10px 0px 0px 20px;
+	}
+	#content .c_right input{
+		margin-bottom:5px;
+	}
+	#content .c_right .submit{
+		width:70px;
+		height:25px;
+		background-color:#fff;
+		margin-top:5px;
+		border:1px solid #CCCCCC;
+	}
+	/*底部*/
+	#footer{
+		width:100%;
+		height:110px;
+		/*清除浮动*/
+		clear:both;
+		background:url(images/bg.gif);
+	}
+	#footer img{
+		margin-top:10px;
+	}
+	#footer p{
+		float:right;
+		color:#ccc;
+		font-size:12px;
+		margin-right:10px;
+		line-height:50px;
+	}
+</style>
+</head>
+
+<body>
+	<div id="header">
+    	<!--在网页中插入flash-->
+        <embed src="images/banner.swf" />
+    </div>
+    <div id="nav">
+    	<!--导航栏-->
+    	<ul>
+        	<a href="index.html"><li>首页</li></a>
+            <a href="index1.html"><li>关于我们</li></a>
+            <a href="index2.html"><li>新闻动态</li></a>
+            <a href="index3.html"><li>楼盘展示</li></a>
+            <a href="index4.html"><li>人才招聘</li></a>
+            <a href="index5.html"><li>联系我们</li></a>
+            <a href="index6.html"><li class="endli">留言反馈</li></a>
+        </ul>
+    </div>
+	<div id="content">
+    		<div class="c_left">
+                                                
+    			<ul>
+                	<li><img src="images/1.png"/><img class="img2" src="images/weline.gif" /><a href="">公&nbsp;司&nbsp;简&nbsp;介</a></li><img src="images/aboutbg.gif"/>
+                    <li class="line"></li>
+                    <li><img src="images/1.png"/><img class="img2" src="images/weline.gif" /><a href="">企&nbsp;业&nbsp;文&nbsp;化</a></li><img src="images/aboutbg.gif"/>
+                    <li class="line"></li>
+                    <li><img src="images/1.png"/><img class="img2" src="images/weline.gif" /><a href="">组&nbsp;织&nbsp;结&nbsp;构</a></li><img src="images/aboutbg.gif"/>
+                    <li class="line"></li>
+                    <li><img src="images/1.png"/><img class="img2" src="images/weline.gif" /><a href="">公&nbsp;司&nbsp;荣&nbsp;誉</a></li><img src="images/aboutbg.gif"/>
+                    <li class="line"></li>
+                    <li><img src="images/1.png"/><img class="img2" src="images/weline.gif" /><a href="">项&nbsp;目&nbsp;荣&nbsp;誉</a></li><img src="images/aboutbg.gif"/>
+                    <li class="line"></li>
+                    
+                </ul>
+    		</div>
+            <div class="c_right">
+    			<img  src="images/Message.gif" />
+  				<form method="post" action="">
+                	您的姓名：<input type="text" name="name" /><br />
+                    电子邮件：<input type="text" name="email" value="@" /><br />
+                    <textarea cols="28" rows="7" ></textarea><br />
+                    <input class="submit" type="submit" value="发送邮件" />
+                </form>
+    		</div>
+    </div>
+    <div id="footer">
+        <img src="images/footer2.gif" />
+        <p>COPYRIGHT &copy; WZGS.NET, 2006. All RIGHTS RESERVED</p>
+    </div>
+</body>
+</html>
